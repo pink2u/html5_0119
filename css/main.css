@@ -1,0 +1,14 @@
+#wrapper{
+    widows: 1000px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+#header{
+    text-align:center;
+    font-size: 2rem; 
+}
+#header a {
+    text-decoration-line: none;
+}
