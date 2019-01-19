@@ -1,6 +1,14 @@
+/*Global Tag Style*/
+ul{
+    margin:0;
+    padding:0;
+}
+/*My Style,커스터마이징*/
+
 #wrapper{
     widows: 1000px;
     margin: 0 auto;
+    padding-bottom: :100px;
 }
 img{
     width: 100%;
@@ -9,6 +17,83 @@ img{
     text-align:center;
     font-size: 2rem; 
 }
-#header a {
-    text-decoration-line: none;
+ a {
+    text-decoration: none;
+    color:black;
+    /* cursor: wait; */
+}
+#nav ul{
+    list-style: none;
+}
+#nav ul li{
+    display: inline-block;
+    width: 100px; 
+    text-align: center;
+    background-color: darkcyan;
+    padding:10px;
+}
+#nav ul li a{
+    color:white;
+}
+#nav ul.menus{
+    float: left;    
+    /* 컨텐츠 영역에서 그림과 글을 같이 할 때 float를 사용한다. */
+}
+#nav ul.icons{
+    float: right;
+}
+#main {
+    clear: both;
+}
+.featured  {
+    margin-top:88px;
+}
+.featured header h2 {
+    text-align:center;
+}
+#footer{
+    border-top:solid 5px grey;
+    padding-top: 30px;
+    display: flex;
+}
+#footer.contact{
+    flex: 1;
+}
+#footer.info{
+    flex: 1;
+    /* 가중치라고생각하면 된다. */
+}
+#footer .contact label,
+#footer .contact input{
+    display:block; 
+    }
+#footer .contact label{
+    margin-bottom: 10px;
+}
+#footer .contact input{
+    box-sizing:border-box;
+    margin-bottom: 30px;
+    width:100%;
+    height: 20px;
+}
+
+ #footer .contact textarea{
+        box-sizing:border-box;
+        width:100%;
+}
+#footer.info ul {
+    list-style: none;
+}
+#footer .info ul li{
+    display:inline-block;
+}
+#copyright {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100;
+    padding:10px;
+    text-align:center;
+    background-color: blueviolet;
+    color : goldenrod;
 }
