@@ -56,10 +56,10 @@ img{
     padding-top: 30px;
     display: flex;
 }
-#footer.contact{
+#footer .contact{
     flex: 1;
 }
-#footer.info{
+#footer .info{
     flex: 1;
     /* 가중치라고생각하면 된다. */
 }
@@ -77,11 +77,11 @@ img{
     height: 20px;
 }
 
- #footer .contact textarea{
+#footer .contact textarea{
         box-sizing:border-box;
         width:100%;
 }
-#footer.info ul {
+#footer .info ul {
     list-style: none;
 }
 #footer .info ul li{
@@ -91,7 +91,7 @@ img{
     position: fixed;
     bottom: 0;
     left:0;
-    width:100;
+    width:100%;
     padding:10px;
     text-align:center;
     background-color: blueviolet;
